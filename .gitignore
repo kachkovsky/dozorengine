@@ -1,0 +1,12 @@
+# Intellij
+.idea/
+*.iws
+*.class
+
+
+# Maven
+log/
+target/
+
+# gradle
+.gradle
