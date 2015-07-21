@@ -1,12 +1,9 @@
 # Intellij
 .idea/
 *.iws
+*.iml
 *.class
-
 
 # Maven
 log/
 target/
-
-# gradle
-.gradle
