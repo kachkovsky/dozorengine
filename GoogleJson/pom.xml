@@ -10,13 +10,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>DozorEngineCore</artifactId>
+    <artifactId>GoogleJson</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.dozorengine</groupId>
-            <artifactId>GoogleJson</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
 </project>

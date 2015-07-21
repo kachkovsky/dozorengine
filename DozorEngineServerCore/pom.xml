@@ -19,8 +19,9 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
+            <groupId>com.dozorengine</groupId>
+            <artifactId>GoogleJson</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
