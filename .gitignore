@@ -3,7 +3,14 @@
 *.iws
 *.iml
 *.class
+*.ipr
 
 # Maven
 log/
 target/
+
+
+/.gradle/
+gradle/
+gradle-app.setting
+/build/
