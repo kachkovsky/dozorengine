@@ -8,5 +8,6 @@ repositories {
 }
 
 dependencies {
+    compile project(":DozorEngine:DozorEngineCore")
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
