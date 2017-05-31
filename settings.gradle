@@ -1,0 +1,5 @@
+rootProject.name = 'DozorEngine'
+include 'DozorEngineCore'
+include 'DozorEngineServerCore'
+include 'GoogleJson'
+
