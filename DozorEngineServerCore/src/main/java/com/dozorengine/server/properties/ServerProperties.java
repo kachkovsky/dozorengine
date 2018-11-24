@@ -66,7 +66,7 @@ public class ServerProperties {
                 properties.put(arr[0].trim(), arr[1].trim());
             eachLine = br.readLine();
         }
-
+        br.close();
     }
 
     /**
