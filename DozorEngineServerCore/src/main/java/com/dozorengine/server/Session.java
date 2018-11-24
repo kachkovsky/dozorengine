@@ -6,6 +6,7 @@ import com.dozorengine.serverinteraction.bean.SessionResultBean;
 import com.dozorengine.serverinteraction.bean.converters.UserConverter;
 import com.dozorengine.serverinteraction.parsers.ResultSessionBeanToParser;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.logging.Level;
@@ -39,7 +40,7 @@ public class Session implements ReadyToReceive {
 
     }
 
-    public synchronized boolean addUser(User user, SocketReceiverWhileSession sc) throws JSONException {
+    public synchronized boolean addUser(User user, SocketReceiverWhileSession sc) throws JSONException, IOException {
         for (User p : users) {
             if (user.getLogin().equals(p.getLogin())) {
                 log.log(Level.INFO, "Login exists cann't connect(modify this, for allow reconnect)");
