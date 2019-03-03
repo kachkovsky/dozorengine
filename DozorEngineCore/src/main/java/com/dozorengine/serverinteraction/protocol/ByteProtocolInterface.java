@@ -10,7 +10,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 
 /**
- * Интерфейс для протокола
+ * Protocol Interface
  * @author IGOR-K
  */
 public interface ByteProtocolInterface {
